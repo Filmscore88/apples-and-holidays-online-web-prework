@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.collect do |k,v| 
   v.select do |k,v| k.include?("BBQ")
   k
-end 
+
 end 
 end
 end
